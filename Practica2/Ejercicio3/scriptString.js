@@ -21,7 +21,10 @@ console.log("La posición donde empieza mi apellidos en el array es: "+ ((nombre
 let salaudo ="Bienvenido/a "
 console.log(salaudo.concat(nombre+apellidos));
 
-console.log((nombre+apellidos).split(" "));
+let palabras = (nombre + apellidos).split(" ");
+
+console.log("Las iniciales de mi nombre son: "+ palabras[0].charAt(0) + palabras[1].charAt(0) + palabras[2].charAt(0) + palabras[3].charAt(0));
+
 
 
 
